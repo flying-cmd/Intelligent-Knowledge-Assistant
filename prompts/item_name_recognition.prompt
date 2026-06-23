@@ -1,0 +1,10 @@
+Identify the product name and model from the following information:
+Filename: {file_title}
+
+Body chunk (for supporting recognition):
+{context}
+
+Requirements:
+1. Return a plain string. Prefer the full product name including brand, model, and product type, for example: Supor 5000W High-Power Induction Cooker.
+2. The result should contain only the product name, with no explanation or extra content.
+3. If the product name cannot be identified, return an empty string.
